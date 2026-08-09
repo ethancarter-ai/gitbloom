@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+env.bak/
+venv.bak/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+.envrc
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Node / build artifacts (defensive)
+node_modules/
+.next/
+out/
+
+# Project specific
+.bloom-status.json
+.bloom.json
+*.db
+
+# Trusted env files
+AGENTS.md
+CLAUDE.md
