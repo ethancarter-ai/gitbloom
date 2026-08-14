@@ -27,7 +27,8 @@ classifiers = [
 gitbloom = "gitbloom.cli:main"
 
 [project.urls]
-"Bug Tracker" = "https://github.com/example/gitbloom/issues"
+Repository = "https://github.com/ethancarter-ai/gitbloom"
+"Bug Tracker" = "https://github.com/ethancarter-ai/gitbloom/issues"
 
 [project.optional-dependencies]
 dev = ["pytest>=7"]

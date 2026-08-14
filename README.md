@@ -5,10 +5,12 @@ Detect and prune stale Git-style comment blocks at the ends of files.
 ## About / description
 
 `gitbloom` inspects configuration, source, and documentation files that accumulate
-per-file trailing comment blocks over time. Rather than deleting comments manually—
-or leaving old TODOs, rollback notes, and debug annotations sitting forever—it lets
-you detect the oldest blocks by date marker, list them, and optionally rewrite the
-file with only the recent ones.
+per-file trailing comment blocks over time. Rather than deleting comments manually—or
+leaving old TODOs, rollback notes, and debug annotations sitting forever—it lets you
+detect the oldest blocks by date marker, list them, and optionally rewrite the file
+with only the recent ones.
+
+Source: https://github.com/ethancarter-ai/gitbloom
 
 ## Features
 
